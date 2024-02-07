@@ -1,0 +1,60 @@
+{
+  "string": [
+    {
+      "name": "module_desc",
+      "value": "module description"
+    },
+    {
+      "name": "PagesRouterAbility_desc",
+      "value": "description"
+    },
+    {
+      "name": "PagesRouterAbility_label",
+      "value": "PagesRouterAbility"
+    },
+    {
+      "name": "next",
+      "value": "Next"
+    },
+    {
+      "name": "next_push_standard",
+      "value": "Next Push Standard"
+    },
+    {
+      "name": "next_push_single",
+      "value": "Next Push Single"
+    },
+    {
+      "name": "next_replace_standard",
+      "value": "Next Replace Standard"
+    },
+    {
+      "name": "next_replace_single",
+      "value": "Next Replace Single"
+    },
+    {
+      "name": "SpecifiedAbility_desc",
+      "value": "description"
+    },
+    {
+      "name": "SpecifiedAbility_label",
+      "value": "SpecifiedAbility"
+    },
+    {
+      "name": "SingletonAbility_desc",
+      "value": "description"
+    },
+    {
+      "name": "SingletonAbility_label",
+      "value": "SingletonAbility"
+    },
+    {
+      "name": "MultitonAbility_desc",
+      "value": "description"
+    },
+    {
+      "name": "MultitonAbility_label",
+      "value": "MultitonAbility"
+    }
+  ]
+}

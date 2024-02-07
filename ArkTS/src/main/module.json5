@@ -1,0 +1,27 @@
+{
+  "module": {
+    "name": "ArkTS",
+    "type": "feature",
+    "description": "$string:module_desc",
+    "mainElement": "ArkTSAbility",
+    "deviceTypes": [
+      "phone",
+      "tablet"
+    ],
+    "deliveryWithInstall": true,
+    "installationFree": false,
+    "pages": "$profile:main_pages",
+    "abilities": [
+      {
+        "name": "ArkTSAbility",
+        "srcEntry": "./ets/arktsability/ArkTSAbility.ts",
+        "description": "$string:ArkTSAbility_desc",
+        "icon": "$media:icon",
+        "label": "$string:ArkTSAbility_label",
+        "startWindowIcon": "$media:icon",
+        "startWindowBackground": "$color:start_window_background",
+        "exported": true
+      }
+    ]
+  }
+}

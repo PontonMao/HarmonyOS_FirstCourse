@@ -1,0 +1,58 @@
+{
+  "module": {
+    "name": "PagesRouter",
+    "type": "feature",
+    "description": "$string:module_desc",
+    "mainElement": "PagesRouterAbility",
+    "srcEntry": "./ets/Application/MyAbilityStage.ets",
+    "deviceTypes": [
+      "phone",
+      "tablet"
+    ],
+    "deliveryWithInstall": true,
+    "installationFree": false,
+    "pages": "$profile:main_pages",
+    "abilities": [
+      {
+        "name": "PagesRouterAbility",
+        "srcEntry": "./ets/pagesrouterability/PagesRouterAbility.ets",
+        "description": "$string:PagesRouterAbility_desc",
+        "icon": "$media:icon",
+        "label": "$string:PagesRouterAbility_label",
+        "startWindowIcon": "$media:icon",
+        "startWindowBackground": "$color:start_window_background",
+        "exported": true
+      },
+      {
+        "name": "SpecifiedAbility",
+        "srcEntry": "./ets/specifiedability/SpecifiedAbility.ets",
+        "description": "$string:SpecifiedAbility_desc",
+        "icon": "$media:icon",
+        "label": "$string:SpecifiedAbility_label",
+        "startWindowIcon": "$media:icon",
+        "startWindowBackground": "$color:start_window_background",
+        "launchType": "specified"
+      },
+      {
+        "name": "SingletonAbility",
+        "srcEntry": "./ets/singletonability/SingletonAbility.ets",
+        "description": "$string:SingletonAbility_desc",
+        "icon": "$media:icon",
+        "label": "$string:SingletonAbility_label",
+        "startWindowIcon": "$media:icon",
+        "startWindowBackground": "$color:start_window_background",
+        "launchType": "singleton"
+      },
+      {
+        "name": "MultitonAbility",
+        "srcEntry": "./ets/multitonability/MultitonAbility.ets",
+        "description": "$string:MultitonAbility_desc",
+        "icon": "$media:icon",
+        "label": "$string:MultitonAbility_label",
+        "startWindowIcon": "$media:icon",
+        "startWindowBackground": "$color:start_window_background",
+        "launchType": "standard"
+      }
+    ]
+  }
+}

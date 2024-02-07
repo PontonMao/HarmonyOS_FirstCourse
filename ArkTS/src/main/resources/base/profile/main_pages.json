@@ -1,0 +1,9 @@
+{
+  "src": [
+    "pages/RankPage"
+  ,
+    "pages/Index",
+    "pages/TypeScript",
+    "pages/ToDoList"
+    ]
+}

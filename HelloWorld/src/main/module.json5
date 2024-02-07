@@ -1,0 +1,27 @@
+{
+  "module": {
+    "name": "HelloWorld",
+    "type": "feature",
+    "description": "$string:module_desc",
+    "mainElement": "HelloWorldAbility",
+    "deviceTypes": [
+      "phone",
+      "tablet"
+    ],
+    "deliveryWithInstall": true,
+    "installationFree": false,
+    "pages": "$profile:main_pages",
+    "abilities": [
+      {
+        "name": "HelloWorldAbility",
+        "srcEntry": "./ets/helloworldability/HelloWorldAbility.ts",
+        "description": "$string:HelloWorldAbility_desc",
+        "icon": "$media:icon",
+        "label": "$string:HelloWorldAbility_label",
+        "startWindowIcon": "$media:icon",
+        "startWindowBackground": "$color:start_window_background",
+        "exported": true
+      }
+    ]
+  }
+}
